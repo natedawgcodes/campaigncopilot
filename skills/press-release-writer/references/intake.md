@@ -1,0 +1,47 @@
+# Intake: fields to collect before writing the release
+
+Gather these before writing. Pull what you can from the user's request, ask for
+the essentials that are missing, and use clear placeholders for contact and
+boilerplate details. Each field is annotated with what it drives.
+
+## The news
+
+- **Release type.** Announcement, endorsement, policy, event advisory, response to
+  attack, or crisis holding statement. Sets the shape of the whole release.
+- **Core news (who, what, when, where, why).** The facts the release reports. The
+  spine of the headline and opening paragraph.
+- **Key supporting facts or proof points.** Detail, data, or context that backs
+  the news. Fills the body in descending importance.
+
+## Voices
+
+- **Candidate name and title or office sought.** For the candidate quote and
+  attribution.
+- **Quote guidance or draft quotes.** What the candidate and a second spokesperson
+  want to convey. If none provided, draft quotes in the candidate's voice and
+  flag them for approval.
+- **Second spokesperson (manager or surrogate) and title.** For the second quote.
+
+## Logistics
+
+- **Dateline city and state, and date.** Opens the body.
+- **Press contact (name, phone, email).** Required header detail. Placeholder
+  until supplied.
+- **Release timing.** For immediate release or an embargo date and time.
+- **Boilerplate.** The standing paragraph about the candidate and campaign.
+  Reused across releases.
+- **Target reporters or outlets (optional).** Shapes the pitch email angle.
+
+## For an event advisory
+
+- **Who, what, when, where.** The event basics.
+- **Visuals.** What there is to photograph or film.
+- **RSVP or credentialing details.** How press attends.
+
+## Voice
+
+- **Tone.** Professional, populist, or neighborly, matched to the candidate and
+  the news.
+
+Confirm quotes and facts before sending. This intake drafts; the campaign
+approves and verifies.

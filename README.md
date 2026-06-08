@@ -40,20 +40,20 @@ Full official docs: [Skills in Claude Code](https://code.claude.com/docs/en/skil
 
 ## The skills
 
-Ten skills planned across the departments a campaign actually runs. One is built and ready to install today; the rest are on the way.
+Ten skills across the departments a campaign actually runs, all built and ready to install today.
 
 | Skill | What it does | Status |
 | :--- | :--- | :--- |
 | `field-script-builder` | Voter-contact scripts for door, phone, and SMS across voter ID, persuasion, GOTV, volunteer recruitment, and ballot chase | Built |
-| `fundraising-appeal-writer` | Donor emails, text appeals, and call-time scripts tuned to ask amount and audience | Planned |
-| `press-release-builder` | Press releases, media advisories, and rapid-response statements | Planned |
-| `stump-speech-writer` | Stump speeches and talking points in the candidate's voice | Planned |
-| `gotv-planner` | Get-out-the-vote turnout plans, shift goals, and chase lists for the final stretch | Planned |
-| `volunteer-recruiter` | Recruitment funnels, sign-up asks, and first-shift onboarding | Planned |
-| `social-content-pack` | Platform-ready social posts and a week-at-a-glance content calendar | Planned |
-| `targeting-memo-builder` | Turn a voter universe into a written targeting and contact plan | Planned |
-| `debate-prep-kit` | Debate prep, mock questions, pivots, and rapid-response lines | Planned |
-| `endorsement-outreach` | Endorsement requests and follow-ups to organizations and local leaders | Planned |
+| `voter-persona-builder` | Define target voter segments and match a tailored message to each | Built |
+| `oppo-research-organizer` | Organize public, user-provided info into a structured vulnerability memo | Built |
+| `debate-prep-coach` | Debate prep: likely and hostile questions, answers, bridges, and a closing | Built |
+| `candidate-message-builder` | One disciplined message set across stump, bio, palm card, SMS, and social | Built |
+| `fundraising-generator` | A multi-touch donor ask across email, SMS, and the donation page | Built |
+| `press-release-writer` | Full releases by type, plus reporter pitch and social copy | Built |
+| `social-rapid-response` | Turn a news item into posts in several voices, sized per platform | Built |
+| `policy-explainer` | Turn a policy position into plain, voter-ready language | Built |
+| `website-copy-builder` | Page-by-page campaign website copy with form fields and SEO | Built |
 
 ## Can't run skills, or want it done for you
 

@@ -130,8 +130,10 @@ read, not a conversion.
 **Persuasion.** Lead with two or three short persuasion points keyed to the
 campaign's top three issues from the intake, in the candidate's framing. Make one
 point, listen, and respond to what the voter actually says rather than reciting
-all three. A contrast with the opponent is optional and should stay factual. Close
-by re-checking the support score to measure movement.
+all three. A contrast with the opponent is optional. If you include one, follow the
+opponent-contrast rule below: any factual claim about the opponent must carry a
+verification flag and is never stated as settled. Close by re-checking the support
+score to measure movement.
 
 **GOTV.** Assume the voter already supports the candidate; do not re-litigate.
 Run a plan-to-vote sequence: ask when they plan to vote, how (in person on
@@ -150,6 +152,30 @@ received it, remind them of the return deadline, and offer the return options
 (mail, drop box, or in person). If your jurisdiction has a signature cure
 process, note it as a reminder. Record ballot status so chased voters drop off
 the list once they return it.
+
+## Opponent contrast: flag every factual claim for verification
+
+A persuasion script may draw a contrast with the opponent, but a canvasser must
+never be handed an unverified factual claim to say as fact. This is a standing rule,
+not a stylistic choice, and it applies anywhere a contrast appears, including the
+persuasion body and the objection-handling bridges.
+
+Whenever a contrast line asserts a specific factual claim about the opponent (a vote,
+a date, a position, a number, or any point of record), do both of these in the script
+itself:
+
+- Attach a visible verification flag right where the claim appears, as a bracketed
+  stage direction, for example `[Verify against the public record before using this
+  line.]`. Do not bury it in a footnote; it sits next to the words the canvasser
+  reads.
+- Phrase the line so it is easy to drop or correct if the record does not back it.
+  Never present the claim as settled.
+
+If a claim cannot be tied to the public record, do not put it in the canvasser's
+mouth at all. A general, checkable contrast (for example, "Jane has a plan on the
+reassessment, and the incumbent has had two terms") is safer than a specific
+assertion the campaign has not confirmed. The campaign owns verifying the record; the
+script's job is to make sure no unverified claim goes out as fact.
 
 ## Data to collect
 

@@ -1,3 +1,8 @@
 .DS_Store
 *.log
 Thumbs.db
+
+# Campaign profiles hold internal, race-specific information
+# (opponent research, tone and strategy decisions, race notes).
+# Keep them out of any public repository.
+campaigns/

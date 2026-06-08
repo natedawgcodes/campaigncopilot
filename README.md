@@ -38,12 +38,21 @@ Zip the skill folder and upload it under Settings, then Features. Custom skills 
 
 Full official docs: [Skills in Claude Code](https://code.claude.com/docs/en/skills) and [Agent Skills overview](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview).
 
+## Start here: set up your campaign once
+
+Run `campaign-setup` before the other skills. It asks for your shared campaign context once (candidate, office, district, opponent, top issues, tone, and key dates) and saves it to a profile at `campaigns/<your-candidate>.md`. Every other skill reads that profile first, so you stop re-entering the same details for each script, release, or persona, and only answer the per-task questions that change from one job to the next.
+
+Consultants running several races keep one file per campaign (for example, `campaigns/jane-miller.md` and `campaigns/sam-lee.md`), and the skills ask which campaign when there is more than one.
+
+A note on privacy: the `campaigns/` folder holds campaign-internal information (opponent research, tone and strategy decisions, race notes). Do not commit it to a public repository. This repo ships a `.gitignore` that excludes `campaigns/` by default, but keep it in mind if you move the files or change your setup.
+
 ## The skills
 
-Ten skills across the departments a campaign actually runs, all built and ready to install today.
+Eleven skills across the departments a campaign actually runs, all built and ready to install today.
 
 | Skill | What it does | Status |
 | :--- | :--- | :--- |
+| `campaign-setup` | Capture shared campaign context once into a profile the other skills read first | Built |
 | `field-script-builder` | Voter-contact scripts for door, phone, and SMS across voter ID, persuasion, GOTV, volunteer recruitment, and ballot chase | Built |
 | `voter-persona-builder` | Define target voter segments and match a tailored message to each | Built |
 | `oppo-research-organizer` | Organize public, user-provided info into a structured vulnerability memo | Built |

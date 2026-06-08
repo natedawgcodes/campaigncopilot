@@ -6,17 +6,20 @@ what they have. Each field is annotated with what it drives.
 
 ## Where these fields come from
 
-If a `campaigns/<name>.md` profile exists, reuse the shared fields from it and do not
-re-ask. Run the `campaign-setup` skill to create one if there is none.
+If a `campaigns/<name>.md` profile exists, reuse the user's own race context from it
+and do not re-ask. Run the `campaign-setup` skill to create one if there is none.
+This skill has two parties: the profile describes the user's own side, while the
+research subject is the opponent and is confirmed per task. Do not conflate them.
 
-- From the profile: candidate name, office, district or jurisdiction, party,
-  opponent(s), top issues, default tone, and key dates (election date and early-vote
-  window). The profile's notes section may also hold do-not-say language, a slogan,
-  or endorsements.
-- Ask per task (not stored in the profile): the public, user-provided source
-  documents and links, the known issue areas to organize, the time period of
-  interest, the campaign's own positions for contrast, and confirmation that each
-  source is public record obtained lawfully.
+- From the profile (the user's own side): candidate name, office, district or
+  jurisdiction, party, top issues (the campaign's own positions for contrast),
+  default tone, and key dates. The profile's notes section may also hold do-not-say
+  language. The profile's opponent(s) field can suggest a likely research subject,
+  but confirm the subject explicitly rather than assuming it.
+- Ask per task (not stored in the profile): the research subject (which opponent
+  this memo is about), the public, user-provided source documents and links, the
+  known issue areas to organize, the time period of interest, and confirmation that
+  each source is public record obtained lawfully.
 
 The field notes below still apply; the profile simply pre-fills the shared ones.
 

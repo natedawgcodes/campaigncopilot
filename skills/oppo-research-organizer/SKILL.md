@@ -41,21 +41,29 @@ public material the user provides.
 
 ## Before you start: load the campaign profile
 
+This skill works with two different parties, and they must never be conflated: the
+user's own campaign, and the opponent being researched. The profile supplies the
+first, not the second.
+
 Check the user's working directory for a `campaigns/` folder before asking for any
 shared context.
 
-- If exactly one profile exists (for example `campaigns/jane-miller.md`), load it
-  and treat it as the source of shared campaign context.
+- If exactly one profile exists (for example `campaigns/jane-miller.md`), load it as
+  the user's own campaign: who they are, the office, the district, and the campaign's
+  own positions for contrast.
 - If several profiles exist, ask which campaign this is for, then load that one.
 - If none exists, let the user know they can run the `campaign-setup` skill first to
   capture shared context once, so they do not re-enter it for every skill. Offer to
   proceed now by asking for the shared fields inline.
 
-Reuse these shared fields from the profile without re-asking: candidate name, office,
-district or jurisdiction, party, opponent(s), top issues, default tone, and key
-dates. The profile's notes section may also carry do-not-say language, a slogan, or
-endorsements, so check there too. Then continue with the intake step below and ask
-only for the per-task fields the profile does not already provide.
+The research subject is the opponent, and it is a per-task input, not something the
+profile decides for you. The profile's opponent(s) field can suggest a likely
+subject, but confirm the exact subject for this memo before organizing anything, and
+never treat the user's own candidate as the research target. From the profile, reuse
+only the user's own side: candidate name, office, district or jurisdiction, party,
+top issues, default tone, and key dates. Then continue with the intake step below and
+ask only for the per-task fields the profile does not already provide, starting with
+who this memo is about.
 
 ## Step 1: Read the intake and the source-logging guide
 

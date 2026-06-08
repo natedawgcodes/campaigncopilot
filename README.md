@@ -84,7 +84,7 @@ Eleven skills across the departments a campaign actually runs, all built and rea
 
 Not every campaign has someone set up to run Claude, and that is fine. If you want these built into your program, a custom skill for a workflow that is specific to your race, or a done-for-you package, reach out:
 
-- Email: hello@campaigncopilot.dev
+- Email: nathan@victoryframeworks.com
 - Web: campaigncopilot.dev
 
 Tell us the office, the jurisdiction, and the task you keep redoing by hand, and we will point you at the right skill or build the one you need.

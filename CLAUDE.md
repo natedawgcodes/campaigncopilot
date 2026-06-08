@@ -26,7 +26,7 @@ skills/<skill-name>/
   SKILL.md            # the skill entrypoint (required)
   references/         # supporting material the skill loads on demand
 README.md             # landing page, install guide, and skill index
-LICENSE               # MIT
+LICENSE               # Apache 2.0
 CLAUDE.md             # this file
 ```
 

@@ -66,4 +66,4 @@ Tell us the office, the jurisdiction, and the task you keep redoing by hand, and
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+Apache 2.0. See [LICENSE](LICENSE).

@@ -38,6 +38,22 @@ Zip the skill folder and upload it under Settings, then Features. Custom skills 
 
 Full official docs: [Skills in Claude Code](https://code.claude.com/docs/en/skills) and [Agent Skills overview](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview).
 
+## How to ask: a weak prompt vs a strong one
+
+These skills reward specifics. The more of your role, race context, audience, tone, goal, and output format you give, the closer the first draft lands.
+
+**Weak prompt**
+
+> write a campaign email about taxes
+
+The skill has to guess who you are, which race, who the email is for, what it should sound like, and what you want back. You get generic copy full of blanks.
+
+**Strong prompt**
+
+> Using `fundraising-generator`: I'm the finance director for Jane Miller, a Democrat challenging a two-term incumbent for Lakeside County Commission, District 3. Write an end-of-quarter fundraising email to past small-dollar donors in the district. Neighborly tone. The goal is to hit our June 30 filing deadline, built around Jane's property tax plan (a senior and longtime-homeowner exemption). Send me five subject lines, the main email with a suggested ask ladder, and a short resend for non-openers.
+
+That one prompt carries role, race context, audience, tone, goal, and output format, so the draft comes back ready to edit instead of ready to redo. Better still, run `campaign-setup` once and the race context (candidate, office, district, opponent, issues, tone) is filled in for every skill automatically, so you only add what changes from task to task.
+
 ## Start here: set up your campaign once
 
 Run `campaign-setup` before the other skills. It asks for your shared campaign context once (candidate, office, district, opponent, top issues, tone, and key dates) and saves it to a profile at `campaigns/<your-candidate>.md`. Every other skill reads that profile first, so you stop re-entering the same details for each script, release, or persona, and only answer the per-task questions that change from one job to the next.

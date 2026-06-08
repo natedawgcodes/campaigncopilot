@@ -5,6 +5,23 @@ the essentials that are missing, and use clearly labeled placeholders for the
 rest so the user can fill them in. Note next to each field below what it drives in
 the script.
 
+## Where these fields come from
+
+If a `campaigns/<name>.md` profile exists, reuse the shared fields from it and do not
+re-ask. Run the `campaign-setup` skill to create one if there is none.
+
+- From the profile: candidate name, office, district or jurisdiction, party,
+  opponent(s), top issues, default tone, and key dates (election date and early-vote
+  window). The profile's notes section may also hold do-not-say language, a slogan,
+  or endorsements.
+- Ask per task (not stored in the profile): the contact method (door, phone, or
+  SMS), the purpose (voter ID, persuasion, GOTV, volunteer recruitment, or ballot
+  chase), the voter segment for this script, operational local specifics the profile
+  does not hold (polling place or drop-box info, registration or ballot-request
+  deadlines), do-not-call status, and SMS opt-in source.
+
+The field notes below still apply; the profile simply pre-fills the shared ones.
+
 ## Campaign basics
 
 - **Candidate name.** Used throughout, and in the opening and closing.

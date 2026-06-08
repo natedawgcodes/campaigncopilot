@@ -4,6 +4,22 @@ Gather these before writing. Pull what you can from the user's request, ask for
 the essentials that are missing, and use clear placeholders for anything legal or
 financial that the user must confirm. Each field is annotated with what it drives.
 
+## Where these fields come from
+
+If a `campaigns/<name>.md` profile exists, reuse the shared fields from it and do not
+re-ask. Run the `campaign-setup` skill to create one if there is none.
+
+- From the profile: candidate name, office, district or jurisdiction, party,
+  opponent(s), top issues, default tone, and key dates (election date and early-vote
+  window). The profile's notes section may also hold do-not-say language, a slogan,
+  or endorsements.
+- Ask per task (not stored in the profile): the reason to give now, the goal or
+  deadline, what the money does, the audience (prior, lapsed, or new donors), the
+  suggested amounts (ask ladder), the sender, the donation link, the required
+  disclaimer text, and the SMS opt-in source.
+
+The field notes below still apply; the profile simply pre-fills the shared ones.
+
 ## Candidate and ask
 
 - **Candidate name and office.** Used throughout and in the sender voice.

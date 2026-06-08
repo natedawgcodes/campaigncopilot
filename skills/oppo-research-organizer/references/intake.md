@@ -4,6 +4,22 @@ Gather these before building the memo. This skill works only from material the
 user provides. Do not source new facts about the opponent here; ask the user for
 what they have. Each field is annotated with what it drives.
 
+## Where these fields come from
+
+If a `campaigns/<name>.md` profile exists, reuse the shared fields from it and do not
+re-ask. Run the `campaign-setup` skill to create one if there is none.
+
+- From the profile: candidate name, office, district or jurisdiction, party,
+  opponent(s), top issues, default tone, and key dates (election date and early-vote
+  window). The profile's notes section may also hold do-not-say language, a slogan,
+  or endorsements.
+- Ask per task (not stored in the profile): the public, user-provided source
+  documents and links, the known issue areas to organize, the time period of
+  interest, the campaign's own positions for contrast, and confirmation that each
+  source is public record obtained lawfully.
+
+The field notes below still apply; the profile simply pre-fills the shared ones.
+
 ## Subject and race
 
 - **Opponent name and office sought.** The subject of the memo.

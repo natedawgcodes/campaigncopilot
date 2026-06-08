@@ -4,6 +4,21 @@ Gather these before writing. Pull what you can from the user's request, ask for
 the essentials that are missing, and label placeholders clearly. Each field is
 annotated with what it drives.
 
+## Where these fields come from
+
+If a `campaigns/<name>.md` profile exists, reuse the shared fields from it and do not
+re-ask. Run the `campaign-setup` skill to create one if there is none.
+
+- From the profile: candidate name, office, district or jurisdiction, party,
+  opponent(s), top issues, default tone, and key dates (election date and early-vote
+  window). The profile's notes section may also hold do-not-say language, a slogan,
+  or endorsements.
+- Ask per task (not stored in the profile): the candidate's biographical facts, key
+  accomplishments, why they are running, the values they lead with, any slogan or
+  tagline, the first-priority audience, and any endorsements.
+
+The field notes below still apply; the profile simply pre-fills the shared ones.
+
 ## Candidate and race
 
 - **Candidate name.** Used throughout and in the bios.

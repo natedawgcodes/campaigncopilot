@@ -4,6 +4,21 @@ Gather these before writing. Rapid response is fast, so pull what you can from t
 user's request, ask only for what you truly need, and flag gaps rather than
 stalling. Each field is annotated with what it drives.
 
+## Where these fields come from
+
+If a `campaigns/<name>.md` profile exists, reuse the shared fields from it and do not
+re-ask. Run the `campaign-setup` skill to create one if there is none.
+
+- From the profile: candidate name, office, district or jurisdiction, party,
+  opponent(s), top issues, default tone, and key dates (election date and early-vote
+  window). The profile's notes section may also hold do-not-say language, a slogan,
+  or endorsements.
+- Ask per task (not stored in the profile): the source item and its key facts, the
+  campaign's take or angle, the platforms in use, the handles and hashtags, the link
+  to include, the donation link for the fundraising version, and the timing.
+
+The field notes below still apply; the profile simply pre-fills the shared ones.
+
 ## The source
 
 - **Source item.** The news article, press release, or opponent post to respond

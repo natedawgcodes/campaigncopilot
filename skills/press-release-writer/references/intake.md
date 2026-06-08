@@ -4,6 +4,23 @@ Gather these before writing. Pull what you can from the user's request, ask for
 the essentials that are missing, and use clear placeholders for contact and
 boilerplate details. Each field is annotated with what it drives.
 
+## Where these fields come from
+
+If a `campaigns/<name>.md` profile exists, reuse the shared fields from it and do not
+re-ask. Run the `campaign-setup` skill to create one if there is none.
+
+- From the profile: candidate name, office, district or jurisdiction, party,
+  opponent(s), top issues, default tone, and key dates (election date and early-vote
+  window). The profile's notes section may also hold do-not-say language, a slogan,
+  or endorsements.
+- Ask per task (not stored in the profile): the release type, the core news (who,
+  what, when, where, why), the key supporting facts, the quote guidance or draft
+  quotes and the second spokesperson, the dateline city and state and the date, the
+  press contact, the release timing, the boilerplate, any target reporters or
+  outlets, and the event details for an advisory.
+
+The field notes below still apply; the profile simply pre-fills the shared ones.
+
 ## The news
 
 - **Release type.** Announcement, endorsement, policy, event advisory, response to

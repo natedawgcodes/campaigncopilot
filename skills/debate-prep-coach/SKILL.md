@@ -19,6 +19,24 @@ Good prep is grounded in the candidate's real positions and known
 vulnerabilities, anticipates the opponent, and keeps every answer pointed back at
 the campaign's core message.
 
+## Before you start: load the campaign profile
+
+Check the user's working directory for a `campaigns/` folder before asking for any
+shared context.
+
+- If exactly one profile exists (for example `campaigns/jane-miller.md`), load it
+  and treat it as the source of shared campaign context.
+- If several profiles exist, ask which campaign this is for, then load that one.
+- If none exists, let the user know they can run the `campaign-setup` skill first to
+  capture shared context once, so they do not re-enter it for every skill. Offer to
+  proceed now by asking for the shared fields inline.
+
+Reuse these shared fields from the profile without re-asking: candidate name, office,
+district or jurisdiction, party, opponent(s), top issues, default tone, and key
+dates. The profile's notes section may also carry do-not-say language, a slogan, or
+endorsements, so check there too. Then continue with the intake step below and ask
+only for the per-task fields the profile does not already provide.
+
 ## Step 1: Read the intake and the bridging guide
 
 Read `references/intake.md` to confirm the format, the opponents, the top issues

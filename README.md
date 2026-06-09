@@ -29,7 +29,13 @@ Claude Code picks up the new folder within your current session. If `~/.claude/s
 
 ### Install in claude.ai
 
-Zip the skill folder and upload it under Settings, then Features. Custom skills are available on Pro, Max, Team, and Enterprise plans with code execution enabled.
+Skills work on Free, Pro, Max, Team, and Enterprise plans. Skills are per user, so each person uploads their own.
+
+1. Download the pack from GitHub and unzip it. Each skill is its own folder with a `SKILL.md` inside.
+2. Turn on code execution first. Open `Settings > Capabilities` and enable "Code execution and file creation." Skills do not work without it.
+3. Zip a single skill folder. Start with `campaign-setup`. The skill folder must sit at the root of the zip, not inside an extra parent folder, or the upload fails.
+4. In claude.ai, open `Customize > Skills` and upload the zip.
+5. Repeat for any other skills you want, then just ask. Claude uses a skill automatically when your request matches it, or type `/skill-name` to run one directly.
 
 ### Good to know
 
